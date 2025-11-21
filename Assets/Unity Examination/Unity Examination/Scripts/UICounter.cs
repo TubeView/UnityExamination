@@ -10,6 +10,7 @@ public class UICounter : MonoBehaviour
     [SerializeField] private TMPro.TMP_Text counterText;
 
     private int counter = 0;
+    public int add;
 
     public UnityEvent onComparedAndTrue;
     
